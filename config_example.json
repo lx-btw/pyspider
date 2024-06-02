@@ -1,0 +1,10 @@
+{
+  "taskdb": "redis+taskdb://127.0.0.1:6379/0",
+  "projectdb": "mongodb+projectdb://127.0.0.1:27017/projectdb",
+  "resultdb": "mongodb+resultdb://127.0.0.1:27017/resultdb",
+  "webui": {
+    "username": "aaa",
+    "password": "aaa",
+    "need-auth": true
+  }
+}

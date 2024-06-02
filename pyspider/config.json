@@ -1,0 +1,11 @@
+{
+    "taskdb": "redis+taskdb://127.0.0.1:6379/taskdb",
+    "projectdb": "redis+projectdb://127.0.0.1:6379/projectdb",
+    "resultdb": "redis+resultdb://127.0.0.1:6379/resultdb",
+    "message_queue": "amqp://127.0.0.1:6379/%2F",
+    "webui": {
+      "username": "aaa",
+      "password": "aaa",
+      "need-auth": true
+    }
+  }
